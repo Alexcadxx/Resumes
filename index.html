@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Alexander, cv, resume">
+    <meta name="description" content="Это сайт - резюме Александр ЕС">
+    <title>Alexander</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="photo" src="img/FotoResum.jpg" alt="Мое фото">
+
+
+                <div class="info-text">
+                    <h1>Alexander</h1>
+                    <p>Я <strong>продвинутый разработчик</strong>, программист
+                        и основатель студии Best</p>
+                    <p>
+                        люблю <em>путешествовать, заниматься спортом
+                        и программировать</em>
+                    </p>
+
+                    <h4>Список социальных сетей:</h4>
+                    <a target="_blank" href="#">Telegram</a>
+                    |
+                    <a target="_blank" href="#">Rutube</a>
+                    |
+                    <a target="_blank" href="#">В Контакте</a>
+                </div>
+        </div>
+        
+        <Div class="card bg-green">
+            <h2>Мои хобби</h2>
+            <ol type="square">
+                <li>Путешествия</li>
+                <li>Блогинг</li>
+                <li>Горные лыжи</li>
+                <li>ММА</li>
+            </ol>
+        </Div>
+        <div class="card bg-yellow">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LPTracker</td>
+                        <td>Frontend</td>
+                        <td>2015-2016</td>
+                    </tr>
+                    <tr>
+                        <td>EPAM</td>
+                        <td>Software Engineer</td>
+                        <td>2016-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Soft Outsourcing Services</td>
+                        <td>Senior Frontend</td>
+                        <td>2017-2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card bg-red">
+            <h2>Мои курсы</h2>
+            <ul>
+                <li>
+                    <a href="#">Получение профессии Frontend Разработчика</a>
+                </li>
+                <li><a href="#">Все курсы</a></li>
+            </ul>
+        </div>
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" 
+                    placeholder="Введите имя">
+                </div> 
+
+                <div class="form-group">
+                    <label for="email">Ваш Email:</label>
+                    <input type="email" id="email" 
+                    placeholder="введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+            <textarea name="" id="message" cols="32" rows="5" 
+            placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+    </div>
+   
+</body>
+</html>
